@@ -62,7 +62,6 @@ const drumAnimation = (e) => {
   activeButton.classList.add("pressed");
   setTimeout(() => activeButton.classList.remove("pressed"), 100);
 };
-
 // End of Functions //
 
 // Event Handlers //
