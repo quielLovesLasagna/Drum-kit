@@ -58,7 +58,7 @@ const drumAnimation = (e) => {
   };
   const className = keyToClass[e];
   if (!className) return;
-  const activeButton = document.querySelector(`.${e}`);
+  const activeButton = document.querySelector(`.${className}`);
   activeButton.classList.add("pressed");
   setTimeout(() => activeButton.classList.remove("pressed"), 100);
 };
